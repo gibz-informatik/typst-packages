@@ -1,8 +1,8 @@
-#import "./base_box.typ": base_box
+#import "./base_box.typ": base-box
 
 // A reusable "icon + content" box built on base_box
-#let icon_box(icon, content, style: (:)) = {
-  base_box(
+#let icon-box(icon, content, style: (:)) = {
+  base-box(
     [
       #grid(
         columns: (50pt, 1fr),

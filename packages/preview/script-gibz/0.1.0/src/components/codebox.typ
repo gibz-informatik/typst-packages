@@ -33,4 +33,4 @@
 }
 
 // Öffentlicher Alias wie bisher
-#let black_code_box = _gibz_black_code_box
+#let black-code-box = _gibz_black_code_box

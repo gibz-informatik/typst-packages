@@ -1,6 +1,6 @@
 // A reusable visual container with sensible defaults.
 // Override any style via the `style` dict.
-#let base_box(body, style: (:)) = {
+#let base-box(body, style: (:)) = {
   let defaults = (
     width: 100%,
     fill: luma(98%),

@@ -1,12 +1,12 @@
 #import "../colors.typ": gibz-blue
 #import "../state.typ": gibz-lang
 #import "../i18n.typ": t
-#import "./base_box.typ": base_box
+#import "./base_box.typ": base-box
 
 // Icon/text two-column box using base_box
 #let gibz-box(icon, content) = {
   set text(size: 10pt)
-  base_box(
+  base-box(
     [
       #grid(
         columns: (50pt, 1fr),
@@ -56,7 +56,7 @@
   context {
     let L = if lang != none { lang } else { gibz-lang.get() }
 
-    base_box(
+    base-box(
       [
         #block(below: 6pt, [
           #text(size: 0.75em, weight: 600, fill: gibz-blue)[📖 #t("supplementary-material", lang: L)]

@@ -2,7 +2,7 @@
 #import "./state.typ": gibz-lang
 #import "./i18n.typ": t
 
-#import "@preview/octique:0.1.0": *
+#import "@preview/octique:0.1.1": *
 #import "@preview/codly:1.3.0": *
 #import "@preview/codly-languages:0.1.8": *
 #import "@preview/hydra:0.6.2": *
@@ -57,7 +57,7 @@
     display-icon: false,
     zebra-fill: gray.lighten(99%),
     number-align: right,
-    fill: gray.lighten(95%),
+    fill: gray.lighten(90%),
     lang-fill: lang => lang.color.transparentize(80%),
     header-cell-args: (align: top + center),
   )

@@ -1,7 +1,7 @@
 #import "../colors.typ": gibz-blue
 #import "../state.typ": gibz-lang
 #import "../i18n.typ": t
-#import "./base_box.typ": base_box
+#import "./base_box.typ": base-box
 
 #let task-theme = (
   accent: gibz-blue,
@@ -71,7 +71,7 @@
     ]
 
     // Outer visual container via base_box
-    base_box(
+    base-box(
       [
         // Header
         #block(below: 6pt, [

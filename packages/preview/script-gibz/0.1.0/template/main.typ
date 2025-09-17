@@ -1,6 +1,6 @@
 #import "@preview/script-gibz:0.1.0": *
 
-#show: gibz_script.with(
+#show: gibz-script.with(
   moduleNumber: "114",
   moduleTitle: "Codierungs-, Kompressions- und Verschlüsselungsverfahren einsetzen",
   documentTitle: "Skript",
