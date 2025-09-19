@@ -32,7 +32,7 @@
 
 // ── Optional convenience namespace (no duplication; just references) ────────
 #let GIBZ = (
-  conf: gibz-script,
+  script: gibz-script,
   task: gibz-task,
   hint: gibz-hint,
   question: gibz-question,

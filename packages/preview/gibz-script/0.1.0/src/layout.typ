@@ -68,16 +68,7 @@
   show heading.where(level: 1): heading => [#block[#v(1em) #heading #v(0.8em)]]
   show heading.where(level: 2): it => [#v(0.5em) #it #v(0.3em)]
 
-
-  let _gibz_current_h1 = state("gibz-current-h1", none)
-
-  // capture the *text* of each H1 when it appears
-  show heading.where(level: 1): it => {
-    // store the heading body (without numbering) in state
-    _gibz_current_h1.update(it.body)
-    it // render the heading as usual
-  }
-
+  show figure.caption: set text(size: 8pt)
 
   set text(lang: language, font: "Arial", size: 11pt, fill: black)
 

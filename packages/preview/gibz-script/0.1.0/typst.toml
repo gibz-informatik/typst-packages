@@ -1,10 +1,10 @@
 [package]
-name = "script-gibz"
+name = "gibz-script"
 version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["Peter Gisler"]
 license = "MIT-0"
-description = "GIBZ Typst template + components (tasks, hints, supplementary, code box) with DE/EN i18n and a clean flat API."
+description = "Template and components (tasks, hints, supplementary, code box) with DE/EN i18n and a clean flat API to be used at GIBZ for creating teaching materials."
 repository = "https://gitlab.com/GIBZ/public/typst-template"
 keywords = ["GIBZ", "education", "teaching", "template", "course"]
 categories = ["layout", "components", "report"]
